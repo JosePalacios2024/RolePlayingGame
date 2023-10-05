@@ -1,10 +1,11 @@
 // Clase Personaje
-class Personaje {
-    constructor(nombre, clase, nivel, experiencia) {
-        this.nombre = nombre;
-        this.clase = clase;
-        this.nivel = nivel;
-        this.experiencia = experiencia;
+class Astronauta {
+    constructor() {
+      this.posicion = { x: 0, y: 0 };
+      this.salud = 100;
+      this.nivelOxigeno = 100;
+      this.arma = null;
+      this.mochilasPropulsores = 3;
     }
 
     atacar(enemigo) {
