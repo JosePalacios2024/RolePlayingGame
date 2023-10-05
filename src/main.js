@@ -7,6 +7,11 @@ class Astronauta {
       this.arma = null;
       this.mochilasPropulsores = 3;
     }
+  
+    moverse(x, y) {
+      this.posicion.x = x;
+      this.posicion.y = y;
+    }
 
     atacar(enemigo) {
         // Lógica de combate
