@@ -3,23 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cosmic Odyssey</title>
-    <link rel="stylesheet" href="../CSS/estilos.css">
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Odisea Cosmica</title>
+    <link rel="stylesheet" href="../CSS/index.css">
 </head>
 <body>
-
-    <header>
-        <div class="absolute">
-            <h1 class="text-white font-bold text-center p-16 text-3xl">Bienvenido a Cosmic Odyssey</h1>
+    <div class="video-container">
+        <video autoplay loop muted id="video">
+            <source src="../IMG/Fondo.mp4" type="video/mp4">
+        </video>
+        <div class="content">
+            <a href="../HTML/pantalla1.html">Iniciar partida</a>
         </div>
-        <div class="iniciar">
-            <a href="/HTML/pantalla1.html">Iniciar</a>
-        </div>
-        <video onloadedmetadata="this.muted=true" autoplay loop>
-            <source src="../IMG/Fondo.mp4">
-        </video>  
-    </header>
-
+    </div>
 </body>
 </html>
